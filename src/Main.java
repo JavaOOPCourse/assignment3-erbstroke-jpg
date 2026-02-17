@@ -5,9 +5,9 @@ public class Main {
         User admin = new Admin("Alice", 1);
         User customer = new Customer("Bob", 2);
 
-        Service streaming = new StreamingService("StreamPlus", 101);
-        Service cloud = new CloudStorageService("CloudBox", 102);
-        Service consultation = new ConsultationService("MediTalk", 103);
+        Service streaming = new StreamingService("StreamPlus", 101, 200);
+        Service cloud = new CloudStorageService("CloudBox", 102, 300);
+        Service consultation = new ConsultationService("MediTalk", 103, 500);
 
         Service[] services = {streaming, cloud, consultation};
 
